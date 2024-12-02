@@ -1,0 +1,77 @@
+main {
+    background: url(../image/background.png);
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto {
+    color: #ffffff;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titulo-texto {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.texto-inferior {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.formulario {
+    width: 350px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+
+.input-formulario, .textarea-formulario {
+    font-weight: 400;
+    font-size: 17px;
+    padding: 8px;
+    border: solid 1px #000000;
+    border-radius: 5px;
+}
+
+.input-formulario::placeholder, .textarea-formulario::placeholder {
+    font-weight: 700;
+    color: #A8A8A8;
+    width: 100%;
+}
+
+.mensagem-campo-obrigatorio {
+    margin-left: 9px;
+    color: #F52E2E;
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: -15px;
+    display: none;
+}
+
+.textarea-formulario {
+    height: 100px;
+    resize: none;
+}
+
+.info-formulario {
+    font-weight: 400;
+    font-size: 14px;
+    margin: -8px 0 8px;
+}
+
+.enviar {
+    padding: 12px;
+    color: #ffffff;
+    background-color: #3CCC87;
+    border: none;
+    cursor: pointer;
+}
